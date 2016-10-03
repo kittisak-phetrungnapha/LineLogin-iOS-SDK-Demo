@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LineSDKDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ylb-DZ-faP">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="7D7-AD-dDi"/>
+                                </constraints>
+                                <state key="normal" title="Login with Line App"/>
+                                <connections>
+                                    <action selector="loginWithLineAppButtonTouch:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fZQ-vO-3B1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5lJ-dw-n4s">
+                                <state key="normal" title="Login with WebView"/>
+                                <connections>
+                                    <action selector="loginWithWebViewTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Yf-hL-ThA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cX3-e3-Hht">
+                                <state key="normal" title="Print User Profile"/>
+                                <connections>
+                                    <action selector="getUserProfileTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c1L-sj-xpL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mII-8e-cbZ">
+                                <state key="normal" title="Logout"/>
+                                <connections>
+                                    <action selector="logoutButtonTounched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T2e-NY-Vfj"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lLl-GX-SDV">
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cX3-e3-Hht" firstAttribute="height" secondItem="5lJ-dw-n4s" secondAttribute="height" id="4FP-9b-2M5"/>
+                            <constraint firstItem="5lJ-dw-n4s" firstAttribute="top" secondItem="Ylb-DZ-faP" secondAttribute="bottom" constant="16" id="6FW-y2-dhk"/>
+                            <constraint firstItem="mII-8e-cbZ" firstAttribute="top" secondItem="cX3-e3-Hht" secondAttribute="bottom" constant="16" id="98t-Il-5qr"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="lLl-GX-SDV" secondAttribute="bottom" constant="16" id="9iF-o7-KeS"/>
+                            <constraint firstItem="5lJ-dw-n4s" firstAttribute="height" secondItem="Ylb-DZ-faP" secondAttribute="height" id="Gyh-gx-nm7"/>
+                            <constraint firstItem="mII-8e-cbZ" firstAttribute="trailing" secondItem="cX3-e3-Hht" secondAttribute="trailing" id="MNB-gc-7IP"/>
+                            <constraint firstItem="5lJ-dw-n4s" firstAttribute="leading" secondItem="Ylb-DZ-faP" secondAttribute="leading" id="RIM-9r-AFf"/>
+                            <constraint firstAttribute="trailing" secondItem="Ylb-DZ-faP" secondAttribute="trailing" constant="16" id="Tkb-d2-hpt"/>
+                            <constraint firstItem="lLl-GX-SDV" firstAttribute="trailing" secondItem="mII-8e-cbZ" secondAttribute="trailing" id="X0J-6U-N4c"/>
+                            <constraint firstItem="Ylb-DZ-faP" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="16" id="ZZ7-Ql-Dcx"/>
+                            <constraint firstItem="mII-8e-cbZ" firstAttribute="height" secondItem="cX3-e3-Hht" secondAttribute="height" id="bGI-VH-0Cl"/>
+                            <constraint firstItem="Ylb-DZ-faP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="bKO-MO-N0M"/>
+                            <constraint firstItem="lLl-GX-SDV" firstAttribute="leading" secondItem="mII-8e-cbZ" secondAttribute="leading" id="d51-TC-Gzb"/>
+                            <constraint firstItem="mII-8e-cbZ" firstAttribute="leading" secondItem="cX3-e3-Hht" secondAttribute="leading" id="god-J8-WfV"/>
+                            <constraint firstItem="cX3-e3-Hht" firstAttribute="top" secondItem="5lJ-dw-n4s" secondAttribute="bottom" constant="16" id="hJZ-Ze-NFC"/>
+                            <constraint firstItem="lLl-GX-SDV" firstAttribute="top" secondItem="mII-8e-cbZ" secondAttribute="bottom" constant="16" id="jKn-0G-ox1"/>
+                            <constraint firstItem="5lJ-dw-n4s" firstAttribute="trailing" secondItem="Ylb-DZ-faP" secondAttribute="trailing" id="r93-IV-7fs"/>
+                            <constraint firstItem="cX3-e3-Hht" firstAttribute="trailing" secondItem="5lJ-dw-n4s" secondAttribute="trailing" id="rAH-wg-0EZ"/>
+                            <constraint firstItem="cX3-e3-Hht" firstAttribute="leading" secondItem="5lJ-dw-n4s" secondAttribute="leading" id="tMK-9N-bVl"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="resultOutputTextView" destination="lLl-GX-SDV" id="fXp-i7-Xkt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE5392141DA0D404006DCD97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5392131DA0D404006DCD97 /* AppDelegate.swift */; };
+		EE5392161DA0D404006DCD97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5392151DA0D404006DCD97 /* ViewController.swift */; };
+		EE5392191DA0D404006DCD97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE5392171DA0D404006DCD97 /* Main.storyboard */; };
+		EE53921B1DA0D404006DCD97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE53921A1DA0D404006DCD97 /* Assets.xcassets */; };
+		EE53921E1DA0D404006DCD97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE53921C1DA0D404006DCD97 /* LaunchScreen.storyboard */; };
+		EE53922F1DA0D870006DCD97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE53922E1DA0D870006DCD97 /* Foundation.framework */; };
+		EE5392311DA0D87C006DCD97 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5392301DA0D87C006DCD97 /* UIKit.framework */; };
+		EE5392331DA0D890006DCD97 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5392321DA0D890006DCD97 /* Security.framework */; };
+		EE5392351DA0D896006DCD97 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5392341DA0D896006DCD97 /* CoreTelephony.framework */; };
+		EE5392371DA0D8A2006DCD97 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5392361DA0D8A2006DCD97 /* CoreGraphics.framework */; };
+		EE5392391DA0D8AC006DCD97 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5392381DA0D8AC006DCD97 /* CoreText.framework */; };
+		EE53923B1DA0DC8A006DCD97 /* LineAdapter.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE53923A1DA0DC8A006DCD97 /* LineAdapter.plist */; };
+		EE53923F1DA0DFE3006DCD97 /* LineAdapter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE53923C1DA0DFE3006DCD97 /* LineAdapter.framework */; };
+		EE5392401DA0DFE3006DCD97 /* LineAdapterLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE53923D1DA0DFE3006DCD97 /* LineAdapterLogin.framework */; };
+		EE5392411DA0DFE3006DCD97 /* LineAdapterUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE53923E1DA0DFE3006DCD97 /* LineAdapterUI.framework */; };
+		EE5392431DA0DFED006DCD97 /* LineAdapterUI.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EE5392421DA0DFED006DCD97 /* LineAdapterUI.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE5392101DA0D404006DCD97 /* LineSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LineSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE5392131DA0D404006DCD97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE5392151DA0D404006DCD97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE5392181DA0D404006DCD97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE53921A1DA0D404006DCD97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE53921D1DA0D404006DCD97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE53921F1DA0D404006DCD97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE53922E1DA0D870006DCD97 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE5392301DA0D87C006DCD97 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EE5392321DA0D890006DCD97 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EE5392341DA0D896006DCD97 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		EE5392361DA0D8A2006DCD97 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE5392381DA0D8AC006DCD97 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		EE53923A1DA0DC8A006DCD97 /* LineAdapter.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LineAdapter.plist; sourceTree = "<group>"; };
+		EE53923C1DA0DFE3006DCD97 /* LineAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LineAdapter.framework; sourceTree = "<group>"; };
+		EE53923D1DA0DFE3006DCD97 /* LineAdapterLogin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LineAdapterLogin.framework; sourceTree = "<group>"; };
+		EE53923E1DA0DFE3006DCD97 /* LineAdapterUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LineAdapterUI.framework; sourceTree = "<group>"; };
+		EE5392421DA0DFED006DCD97 /* LineAdapterUI.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LineAdapterUI.bundle; sourceTree = "<group>"; };
+		EE5392441DA0E089006DCD97 /* LineSDKDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LineSDKDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE53920D1DA0D404006DCD97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5392401DA0DFE3006DCD97 /* LineAdapterLogin.framework in Frameworks */,
+				EE53923F1DA0DFE3006DCD97 /* LineAdapter.framework in Frameworks */,
+				EE5392391DA0D8AC006DCD97 /* CoreText.framework in Frameworks */,
+				EE5392371DA0D8A2006DCD97 /* CoreGraphics.framework in Frameworks */,
+				EE5392351DA0D896006DCD97 /* CoreTelephony.framework in Frameworks */,
+				EE5392331DA0D890006DCD97 /* Security.framework in Frameworks */,
+				EE5392311DA0D87C006DCD97 /* UIKit.framework in Frameworks */,
+				EE5392411DA0DFE3006DCD97 /* LineAdapterUI.framework in Frameworks */,
+				EE53922F1DA0D870006DCD97 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE5392071DA0D404006DCD97 = {
+			isa = PBXGroup;
+			children = (
+				EE5392121DA0D404006DCD97 /* LineSDKDemo */,
+				EE5392111DA0D404006DCD97 /* Products */,
+				EE5392251DA0D72D006DCD97 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE5392111DA0D404006DCD97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE5392101DA0D404006DCD97 /* LineSDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE5392121DA0D404006DCD97 /* LineSDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EE5392131DA0D404006DCD97 /* AppDelegate.swift */,
+				EE5392151DA0D404006DCD97 /* ViewController.swift */,
+				EE5392171DA0D404006DCD97 /* Main.storyboard */,
+				EE53921A1DA0D404006DCD97 /* Assets.xcassets */,
+				EE53921C1DA0D404006DCD97 /* LaunchScreen.storyboard */,
+				EE53921F1DA0D404006DCD97 /* Info.plist */,
+				EE53923A1DA0DC8A006DCD97 /* LineAdapter.plist */,
+				EE5392421DA0DFED006DCD97 /* LineAdapterUI.bundle */,
+				EE5392441DA0E089006DCD97 /* LineSDKDemo-Bridging-Header.h */,
+			);
+			path = LineSDKDemo;
+			sourceTree = "<group>";
+		};
+		EE5392251DA0D72D006DCD97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE53923C1DA0DFE3006DCD97 /* LineAdapter.framework */,
+				EE53923D1DA0DFE3006DCD97 /* LineAdapterLogin.framework */,
+				EE53923E1DA0DFE3006DCD97 /* LineAdapterUI.framework */,
+				EE5392381DA0D8AC006DCD97 /* CoreText.framework */,
+				EE5392361DA0D8A2006DCD97 /* CoreGraphics.framework */,
+				EE5392341DA0D896006DCD97 /* CoreTelephony.framework */,
+				EE5392321DA0D890006DCD97 /* Security.framework */,
+				EE5392301DA0D87C006DCD97 /* UIKit.framework */,
+				EE53922E1DA0D870006DCD97 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE53920F1DA0D404006DCD97 /* LineSDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE5392221DA0D404006DCD97 /* Build configuration list for PBXNativeTarget "LineSDKDemo" */;
+			buildPhases = (
+				EE53920C1DA0D404006DCD97 /* Sources */,
+				EE53920D1DA0D404006DCD97 /* Frameworks */,
+				EE53920E1DA0D404006DCD97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LineSDKDemo;
+			productName = LineSDKDemo;
+			productReference = EE5392101DA0D404006DCD97 /* LineSDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE5392081DA0D404006DCD97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Kittisak Phetrungnapha";
+				TargetAttributes = {
+					EE53920F1DA0D404006DCD97 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = RQ42KJQDTL;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EE53920B1DA0D404006DCD97 /* Build configuration list for PBXProject "LineSDKDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE5392071DA0D404006DCD97;
+			productRefGroup = EE5392111DA0D404006DCD97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE53920F1DA0D404006DCD97 /* LineSDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE53920E1DA0D404006DCD97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5392431DA0DFED006DCD97 /* LineAdapterUI.bundle in Resources */,
+				EE53923B1DA0DC8A006DCD97 /* LineAdapter.plist in Resources */,
+				EE53921E1DA0D404006DCD97 /* LaunchScreen.storyboard in Resources */,
+				EE53921B1DA0D404006DCD97 /* Assets.xcassets in Resources */,
+				EE5392191DA0D404006DCD97 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE53920C1DA0D404006DCD97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE5392161DA0D404006DCD97 /* ViewController.swift in Sources */,
+				EE5392141DA0D404006DCD97 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE5392171DA0D404006DCD97 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE5392181DA0D404006DCD97 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE53921C1DA0D404006DCD97 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE53921D1DA0D404006DCD97 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE5392201DA0D404006DCD97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE5392211DA0D404006DCD97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE5392231DA0D404006DCD97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = RQ42KJQDTL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = LineSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.medium.csnu17top.LineSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LineSDKDemo/LineSDKDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EE5392241DA0D404006DCD97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = RQ42KJQDTL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = LineSDKDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.medium.csnu17top.LineSDKDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LineSDKDemo/LineSDKDemo-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE53920B1DA0D404006DCD97 /* Build configuration list for PBXProject "LineSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE5392201DA0D404006DCD97 /* Debug */,
+				EE5392211DA0D404006DCD97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE5392221DA0D404006DCD97 /* Build configuration list for PBXNativeTarget "LineSDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE5392231DA0D404006DCD97 /* Debug */,
+				EE5392241DA0D404006DCD97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE5392081DA0D404006DCD97 /* Project object */;
+}
